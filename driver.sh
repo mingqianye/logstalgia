@@ -1,0 +1,1 @@
+ssh sic@sic-001-chi.internal.33across.com tail -f /var/log/sic/sic.log | python transform.py | logstalgia -b 010513 --hide-response-code --paddle-position 0.5 -g "sporcle.com,URI=sporcle.com,25" -g "breibart.com,URI=breitbart.com,25" -g "littlethings.com,URI=littlethings.com,25" -
